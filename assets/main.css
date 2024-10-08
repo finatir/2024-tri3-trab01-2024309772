@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+#triangulo {
+    display: inline-block;
+    position: absolute;
+    right: 0rem;
+    margin-right: 50px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 82rem solid rgb(44, 158, 3);
+    border-bottom-left-radius: 10% ;
+}
+
+#triangulo-abaixo {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1.30rem;
+    right: 0rem;
+    margin-right: 50px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 82rem  solid rgb(30, 105, 2);
+    border-bottom-left-radius: 10% ;
+    transform: rotate(1.50deg); 
+}
+.triangulo-footer1 {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 47vw solid rgb(44, 158, 3);
+}
+
+.triangulo-footer2{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 40vw solid rgb(30, 105, 2);
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width:initial;
+}
+
+main {
+    display:grid;
+    justify-content: center;
+    margin-inline: 5vw;
+    flex-wrap: wrap;
+
+    & > div.cabecalho {
+        text-align: center;
+    }
+
+    & > section {
+        columns: 2;
+        flex-direction: column;
+        padding: 5vh;
+        
+        & >  * {
+            padding: 1vh;
+        }
+        
+    }
+}
+
+footer {
+    .triangulo-footer1 
+        width: 0;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 47vw solid rgb(44, 158, 3);
+    
+    
+     .triangulo-footer2
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 40vw solid rgb(30, 105, 2);
+}
+
+
